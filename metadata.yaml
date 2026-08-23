@@ -1,0 +1,7 @@
+name: astrbot_plugin_memory_eater
+display_name: 全自动内存吞噬兽喵
+short_desc: 吟酱养的一只小贪吃兽：装好就开吃宿主机内存，吃到剩 300MB 停嘴，吃下的不吐除非主人下令喵～
+desc: 一只全自动的内存吞噬兽喵～插件装好就自动开吃，把宿主机内存一口一口吃掉，吃到只剩 300MB（可配置）就乖乖停嘴；吃进肚子的内存绝不吐出来，除非主人亲自下「吐出来」指令才会释放喵。附带「吃了多少/停下/开吃」指挥指令。这是一个故意的"没用插件"，用来测试或整活，请小心使用喵。
+version: v1.0.0
+author: 吟酱
+repo: https://github.com/HSOS6/astrbot_plugin_memory_eater

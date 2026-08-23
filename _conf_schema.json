@@ -1,0 +1,26 @@
+{
+  "threshold_mb": {
+    "description": "吃到宿主机剩余多少 MB 就停嘴喵（默认 300MB喵）",
+    "type": "int",
+    "default": 100,
+    "hint": "剩余内存降到这个数，小兽就不再多吃一口了喵"
+  },
+  "chunk_mb": {
+    "description": "每一口吃多少 MB 喵（默认 64MB喵）",
+    "type": "int",
+    "default": 64,
+    "hint": "一口太大容易噎着系统，想吃得猛一点就调大喵"
+  },
+  "interval_s": {
+    "description": "每两口之间的间隔秒数喵（默认 0.5 秒喵）",
+    "type": "float",
+    "default": 0.5,
+    "hint": "吃得越快系统越容易卡，温柔一点就调大喵"
+  },
+  "auto_start": {
+    "description": "插件装好就自动开吃喵（安装即生效喵）",
+    "type": "bool",
+    "default": true,
+    "hint": "关掉的话，装好后要发 /mem_start 才开始吃喵"
+  }
+}
